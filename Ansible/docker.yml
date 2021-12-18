@@ -1,5 +1,5 @@
 ---
-- hosts: ec2servers
+- hosts: webservers
   become: true
   tasks:
     - name: install dependencies
